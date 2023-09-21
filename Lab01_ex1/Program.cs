@@ -11,6 +11,11 @@
         }
         else
         {
+            if (s[2] != "+" || s[2] != "-" || s[2] != "x" || s[2] != "/")
+            {
+                Console.WriteLine("Invalid Oparator!");
+                return;
+            }
             if (int.TryParse(s[1], out int val))
             {
                 int a = int.Parse(s[0]);
