@@ -24,6 +24,5 @@ class Program
         Console.WriteLine("After removing 2003:");
         myList.Print();
         Console.WriteLine("========================================");
-
     }
 }
