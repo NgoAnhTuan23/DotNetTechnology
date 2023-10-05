@@ -27,6 +27,7 @@
             }
             return a / b;
         }
+
         MathOperation addTwoInt = Add;
         MathOperation subtractTwoInt = Subtract;
         MathOperation multiplyTwoInt = Multiply;
